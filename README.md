@@ -1,5 +1,5 @@
 # cash_register_site[Live Demo]
-https://funny-yeot-941443.netlify.app
+https://rad-pika-060de3.netlify.app
 
 ### This application tells user the cash to be paid, and the minimum number of notes to return when the user (cashier) enters the bill and the amount paid by the customer.
 
