@@ -47,7 +47,7 @@ checkbtn.addEventListener("click", () => {
 
     if (billamnt <= cashamnt) {
       if (billamnt === cashamnt) {
-        showmsg("No Ammount to be returned");
+        showmsg("No Amount to be returned");
       } else {
         returnchange.style.display = "block";
         change.innerText = bacha_cash;
@@ -57,7 +57,7 @@ checkbtn.addEventListener("click", () => {
       showmsg("Give more cash!");
     }
   } else {
-    showmsg("Enter a Vaid Ammount!");
+    showmsg("Enter a Vaid Amount!");
   }
 });
 
