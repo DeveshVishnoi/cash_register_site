@@ -103,21 +103,40 @@ th {
   display: inline-block;
 }
 
-.footer {
-  margin-top: 50px;
-  padding: 14px;
-  padding-bottom: 0;
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  min-height: 20vh;
   text-align: center;
+  border: 1px solid blACK;
+  background-color: lightgreen;
+  border: none;
+  bottom: 0;
+  width: 100%;
+  position: absolute
 }
 
-.footer ul {
-  padding: 8px;
+.list{
+  padding-top:20px ;
+  display: flex;
+  gap: 46px;
+  /* text-decoration: none; */
+  list-style: none;
+  font-weight: bold;
+  
 }
-
-.footer ul li {
-  padding: 8px;
+.list li a{
+  text-decoration:none;
+  color:black;
 }
-
-.footer .link {
-  color: white;
+.list li:hover {
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
