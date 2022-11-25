@@ -114,7 +114,7 @@ th {
   border: 1px solid blACK;
   background-color: lightgreen;
   border: none;
-  bottom: 0;
+  bottom: -60px;
   width: 100%;
   position: absolute
 }
